@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function  myFunction()  {
+            var x = document.getElementById("idnavbar"); 
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+<script>
+  function  myFunction1()  {
+      var a = document.getElementById("idviewmore"); 
+      if (a.className.indexOf("w3-show") == -1) {
+          a.className += " w3-show";
+      } else {
+          a.className = a.className.replace(" w3-show", "");
+      }
+  }
+</script>
+
+    <style>
+        @media screen and (min-width: 1500px) {
+        body {
+                max-width: 60%;
+                margin: auto;
+             }
+             p{
+                 color: gold;
+             }
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            padding-top: 56.25%;
+        }
+
+        .responsive-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .mySlides {display:none;}
+    </style>
+
+    <title>SG.KARAS DURIAN</title>
+</head>
+
+<body>
+    <div id="HOME" class="w3-bar w3-green">
+        <a href="#HOME" class="w3-bar-item w3-button w3-hide-small">HOME</a>
+        <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-user" style="font-size:22px"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-right w3-hide-small w3-hide-medium"><i class="fa fa-shopping-cart" style="font-size:22px"></i></a>
+        <a href="#LOCATION" class="w3-bar-item w3-button w3-right w3-hide-small w3-hide-medium">LOCATION</a>
+        <a href="#CONTACT US" class="w3-bar-item w3-button w3-right w3-hide-small w3-hide-medium">CONTACT US</a>
+        <a href="#OUR PRODUCT" class="w3-bar-item w3-button w3-right w3-hide-small w3-hide-medium">OUR PRODUCT</a>
+        <a href="#ABOUT US" class="w3-bar-item w3-button w3-right w3-hide-small w3-hide-medium">ABOUT US</a>
+        <a href="#HOME" class="w3-bar-item w3-button w3-hide-large w3-hide-medium"><img src="logo 1.png" width="40" height="40"></a>
+        <a href="javascript:(0)" class="w3-bar-item w3-button w3-right w3-hide-large" onclick="myFunction()">&#9776;</a>
+    </div>
+    <div id="idnavbar" class="w3-bar-block w3-green w3-hide w3-hide-large">
+        <a href="#ABOUT US" class="w3-bar-item w3-button w3-left">ABOUT US</a>
+        <a href="#OUR PRODUCT" class="w3-bar-item w3-button w3-left">OUR PRODUCT</a>
+        <a href="#CONTACT US" class="w3-bar-item w3-button w3-left">CONTACT US</a>
+        <a href="#LOCATION" class="w3-bar-item w3-button w3-left">LOCATION</a>
+        <a href="#" class="w3-bar-item w3-button w3-left">ORDER NOW  <i class="fa fa-shopping-cart" style="font-size:22px"></i></a>
+    </div>
+    <div class="w3-header w3-container w3-row w3-green w3-padding-32">
+        <div class="w3-display-container w3-third w3-padding-24 w3-hide-small" style="height: 240px;">
+            <img src="logo 1.png"  width="200" height="200" class="w3-display-topmiddle" style="font-size: 256px;">
+        </div>
+        <div class="w3-header w3-container w3-twothird">
+            <h1 style="font-size:calc(10px + 2vw); font-family:algerian; font-weight:bold" class=" w3-center w3-hide-small w3-text-black">WELCOME TO<br>DURIAN SUNGAI KARAS</h1>
+            <h2 style="font-size:calc(14px + 3vw); font-family:algerian; font-weight:bold" class="w3-center w3-hide-large w3-hide-medium w3-text-black">WELCOME TO<br>DURIAN SUNGAI KARAS</h1>
+            <p style="font-size:calc(6px + 1vw); font-family:time new roman; font-weight:bold" class="w3-center w3-text-yellow w3-hide-small">Musang King, Udang Merah, XO, IOI, Nyonya, Kampung</p>
+            <p style="font-size:calc(7px + 1vw); font-family:time new roman; font-weight:bold" class="w3-center w3-text-yellow w3-hide-large w3-hide-medium">Musang King, Udang Merah, XO, IOI, Nyonya, Kampung</p>
+        </div>
+    </div>
+    <div id="ABOUT US" class="w3-container w3-row w3-pale-green w3-padding-32">
+        <div class="w3-display-container w3-third w3-padding-24 w3-hide-small" style="height: 300px;">
+            <img src="durian tree.jpeg" width="300" height="300" class="w3-display-middle w3-padding" style="font-size:256px;">
+        </div>
+        <div class="w3-container w3-twothird">
+            <h3 style="font-size:calc(4px + 2vw); font-family:algerian; font-weight:bold" class="w3-center w3-hide-small">ABOUT US</h3>
+            <h3 style="font-size:calc(12px + 2vw); font-family:algerian; font-weight:bold" class="w3-center w3-hide-large w3-hide-medium">OUR STORY</h3>
+            <p1 style="font-size:calc(2px + 1vw); font-family:time new roman; font-weight:bold" class="w3-hide-small">Was established in 1990 after Tan Kim Tai discovered grafting. Twenty years ago, his son, Tan Peo Chuan (popularly called Ah Di), switched this 6-acre durian farm to pesticide-free organic farming to produce healthy, high-quality durian. </p1>
+            <p2 style="font-size:calc(2px + 1vw); font-family:time new roman; font-weight:bold" class="w3-hide-small">Our stall provide all types of local Durians such as Musang King, D24, XO, Tracka, Udang Merah and etc for retails and Durian party.</p2>
+            <p3 style="font-size:calc(2px + 1vw); font-family:time new roman; font-weight:bold" class="w3-hide-small">All durian trees are over 30 years old and can produce a strong and delicious smell and taste.</p3>
+            <p1 style="font-family:time new roman; font-weight:bold" class="w3-hide-large w3-hide-medium">Was established in 1990 after Tan Kim Tai discovered grafting. Twenty years ago, his son, Tan Peo Chuan (popularly called Ah Di), switched this 6-acre durian farm to pesticide-free organic farming to produce healthy, high-quality durian. </p1>
+            <p2 style="font-family:time new roman; font-weight:bold" class="w3-hide-large w3-hide-medium">Our stall provide all types of local Durians such as Musang King, D24, XO, Tracka, Udang Merah and etc for retails and Durian party.</p2>
+            <p3 style="font-family:time new roman; font-weight:bold" class="w3-hide-large w3-hide-medium">All durian trees are over 30 years old and can produce a strong and delicious smell and taste.</p3>
+        </div>
+    </div>
+
+    <div id="OUR PRODUCT" class="w3-container w3-green ">
+        <h1 class="w3-text-black w3-center w3-hide-small" style="font-size:calc(4px + 2vw); font-family:algerian; font-weight:bold"><img src="durian logo-modified (1).png"><br>OUR PRODUCT</h1>
+        <h1 class="w3-text-black w3-center w3-hide-medium w3-hide-large" style="font-size:calc(12px + 2vw); font-family:algerian; font-weight:bold"><img src="eat durian.png"><br>OUR PRODUCT</h1>
+      </div>
+
+      <div class=" w3-container w3-pale-green w3-center">
+        <div class="w3-third w3-row-padding w3-margin-top">
+          <div class="w3-card">
+            <img src="Black Thorn.jpg" style="width:100%">
+            <div class="w3-container w3-center">
+              <h5 style="font-family:algerian;">BLACK THORN<br>RM90/1kg</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-third w3-row-padding w3-margin-top">
+            <div class="w3-card">
+              <img src="Musang King.jpg" style="width:100%">
+              <div class="w3-container w3-center">
+                <h5 style="font-family:algerian;">MUSANG KING<br>RM60/1kg</h5>
+              </div>
+            </div>
+          </div>
+        
+          <div class="w3-third w3-row-padding w3-margin-top w3-hide-small">
+            <div class="w3-card">
+              <img src="IOI.webp" style="width:100%">
+              <div class="w3-container w3-center">
+                <h5 style="font-family:algerian;">IOI<br>RM30/1kg</h5>
+              </div>
+            </div>
+          </div>
+
+          <div id="idviewmore" class="w3-container w3-pale-green w3-hide">
+            <div class="w3-third w3-row-padding w3-margin-top w3-hide-large w3-hide-medium">
+              <div class="w3-card">
+                <img src="IOI.webp" style="width:100%">
+                <div class="w3-container w3-center">
+                  <h5 style="font-family:algerian;">IOI<br>RM30/1kg</h5>
+                </div>
+              </div>
+            </div>
+    
+              <div class="w3-row-padding w3-margin-top w3-third">
+                <div class="w3-card">
+                  <img src="XO.jpg" style="width:100%">
+                  <div class="w3-container w3-center">
+                    <h5 style="font-family:algerian;">XO<br>RM30/1kg</h5>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="w3-third w3-row-padding w3-margin-top">
+                <div class="w3-card">
+                  <img src="udang merah.jpg" style="width:100%">
+                  <div class="w3-container w3-center">
+                    <h5 style="font-family:algerian;">RED PRAWN<br>RM30/1kg</h5>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="w3-third w3-row-padding w3-margin-top">
+                <div class="w3-card">
+                  <img src="kampung.jpg" style="width:100%">
+                  <div class="w3-container w3-center">
+                    <h5 style="font-family:algerian;">KAMPUNG<br>RM15/1kg</h5>
+                  </div>
+                </div>
+              </div>
+          </div>  
+      </div>
+
+      <div class="w3-container w3-green w3-center"><br>
+        <a href="javascript:(0)" class="w3-display-container w3-button w3-border-red w3-round-large w3-pale-green" onclick="myFunction1()">VIEW MORE</a>
+        </div>
+
+    <div id="CONTACT US" class="w3-container w3-row w3-padding-32 w3-pale-green">
+        <div class="w3-container w3-twothird">
+            <form action="CONTACT US.php" class="w3-container w3-card-4 w3-light-grey w3-text-yellow w3-margin w3-round-xlarge">
+                <h2 class="w3-center">Contact Us</h2>
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width: 50px;"><i class="w3-xxlarge fa fa-user"></i></div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border" name="name" types="text" placeholder="Name">
+                    </div>
+                </div>
+
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width: 50px;">
+                        <i class="w3-xxlarge fa fa-envelope-o"></i>
+                    </div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border" name="email" types="text" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width: 50px;">
+                        <i class="w3-xxlarge fa fa-pencil"></i>
+                    </div>
+                    <div class="w3-rest">
+                        <textarea class="w3-input w3-border" id="idmessage" name="message" rows="4" cols="50" width="100%" placeholder="Please enter your message"></textarea>
+                    </div>
+                </div>
+
+                <button class="w3-button w3-block w3-section w3-yellow w3-ripple w3-padding w3-round-large"> Send</button>
+            </form>
+        </div>
+        <div class="s3-display-container w3-third w3-padding-24 w3-hide-small" style="height: 300px;">
+            <i class="fa fa-phone " style="font-size:300px; color:rgb(223, 71, 71)"></i>
+        </div>
+    </div>
+
+    <div class="w3-container w3-green w3-center">
+      <a href="https://www.facebook.com/duriansungaikaras" class="w3-button"><i class="fa fa-facebook-square" style="font-size:25px"></i></a>
+      <a href="#" class="w3-button"><i class="fa fa-instagram" style="font-size:25px"></i><a>
+      <a href="https://api.whatsapp.com/send/?phone=601110571730" class="w3-button"><i class="fa fa-whatsapp" style="font-size:25px"></i><a>
+  </div>
+
+    <div id="LOCATION" class="container w3-row w3-pale-green w3-padding-24 w3-center">
+        <div class="w3-display-container w3-third w3-padding-24 w3-hide-small" style="height: 300;">
+            <i class="fa fa-map" style="font-size:220px; color:rgb(223, 71, 71)"></i>
+            <p4><br><br>No 21, Jalan Teo Ing, Sungai Karas, 85300 Labis, Johor.</p>
+        </div>
+        <div class="w3-container w3-twothird w3-center">
+            <div class="container">
+                <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2319.563301666623!2d103.03678895632194!3d2.3558360115003807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d026ffa931102b%3A0x10ec999c75772ad9!2sJalan%20Teo%20Eng%2C%2085300%20Labis%2C%20Johor!5e0!3m2!1sen!2smy!4v1636123365074!5m2!1sen!2smy"
+                height="300" style="border: 0;" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="GALLERY" class="w3-container w3-green ">
+      <h1 class="w3-text-black w3-center w3-hide-small" style="font-size:calc(4px + 2vw); font-family:algerian; font-weight:bold">GALLERY</h1>
+      <h1 class="w3-text-black w3-center w3-hide-medium w3-hide-large" style="font-size:calc(12px + 2vw); font-family:algerian; font-weight:bold">GALLERY</h1>
+    </div>
+
+<div class="w3-content w3-display-container w3-pale-green">
+  <img class="mySlides" src="d3.jpeg" style="width:50%; height: 300px; margin-left: auto; margin-right: auto; background-size: 100% 100%; border: 1px solid rgb(133, 221, 133);">
+  <img class="mySlides" src="d4.jpeg" style="width:50%; height: 300px; margin-left: auto; margin-right: auto; background-size: 100% 100%; border: 1px solid rgb(133, 221, 133);">
+  <img class="mySlides" src="d5.jpeg" style="width:50%; height: 300px; margin-left: auto; margin-right: auto; background-size: 100% 100%; border: 1px solid rgb(133, 221, 133);">
+  <img class="mySlides" src="d2.jpeg" style="width:50%; height: 300px; margin-left: auto; margin-right: auto; background-size: 100% 100%; border: 1px solid rgb(133, 221, 133);">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+    <div class="w3-container w3-green w3-center">
+        <p>Copyright:SG.DURIAN</p>
+        <p><a href="mailto:durian@example.com"durian@example.com></a></p>
+        <a href="#HOME" class="w3-button w3-center w3-pale-green w3-round-xlarge" width="30%">TOP</a>
+    </div>
+</body>
+
+</html>
+
